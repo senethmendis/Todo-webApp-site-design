@@ -43,6 +43,9 @@ body {
   background-position-y: -40px;
   background-image: url(assets/stacked-waves-haikei.png);
 }
+.black__gradient{
+  background: var(--black-gradient);
+}
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
