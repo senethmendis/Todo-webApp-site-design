@@ -1,34 +1,38 @@
+
 import {
   profilePic1,
   profilePic2,
   profilePic3,
   profilePic4,
   profilePic5,
+  voiceIcon,
+  thubmsUp,
+  devices
 } from "../assets";
 
-export const Navbar = [
-  { id: "about", tabName: "About" },
-  { id: "howtouse", tabName: "How To Use" },
-  { id: "viwers", tabName: "Viwers" },
-  { id: "contact", tabName: "Contact" },
+export const Navlinks = [
+  { id: "about", tabName: "About",navPath:"About" },
+  { id: "howtouse", tabName: "How To Use",navPath:"HowTo" },
+  { id: "viwers", tabName: "Viwers",navPath:"Viwers" },
+  { id: "contact", tabName: "Contact",navPath:"Contact" },
 ];
 
 export const EyaseToUse = [
   {
-    icon: <FaRegThumbsUp />,
+    icon: thubmsUp,
     presentage: 50,
     title: "Make it easy",
     subText: "Easily plane your day in a couple of moves.",
   },
   {
-    icon: <RiVoiceprintLine />,
+    icon: voiceIcon,
     presentage: 50,
     title: "Say Siri",
     subText:
       "The Voice assistant will tell oyu what and when you need to do in order to help up with everything",
   },
   {
-    icon: <BiDevices />,
+    icon: devices,
     presentage: 50,
     title: "Other devices",
     subText:

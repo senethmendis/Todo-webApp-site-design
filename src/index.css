@@ -18,6 +18,11 @@
 body {
   background: var(--primary-bg-color);
   color: white;
+  @apply font-poppins
+}
+
+.border-left{
+  @apply border-l-4  pl-6 border-primary
 }
 
 * {
