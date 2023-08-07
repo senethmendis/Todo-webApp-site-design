@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles";
 import { EyaseToUse } from "../constance";
+import { IoInvertMode } from "react-icons/io5";
 
 const FeaturesCard = ({ img, precentage, title, subText }) => (
   <div className="h-full w-full px-6 py-3 mt-10 sm:mt-0">
-    <div
-      className={`w-[70px] h-[70px] p-2 bg-white rounded-full ${styles.flexCenter}`}
+    <div 
+      className={ `make-invert-img number-3dicon  p-2  rounded-full ${styles.flexCenter}`}
     >
       <img src={img} alt="" className="w-[64px] " />
     </div>
@@ -25,6 +26,7 @@ const Features = () => {
       <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
         {EyaseToUse.map((props) => (
           <FeaturesCard
+          key={props.title}
             img={props.icon}
             precentage={props.presentage}
             title={props.title}

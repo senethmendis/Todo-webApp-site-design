@@ -22,7 +22,7 @@ body {
 }
 
 .border-left{
-  @apply border-l-4  pl-6 border-primary
+  @apply border-l-4  pl-6 border-primary my-3
 }
 
 * {
@@ -49,10 +49,38 @@ body {
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  filter: blur(500px);
 }
 
 .purple__gradient {
   background: linear-gradient(90deg, #5b6cf9 0%, #5612d6 100%);
   filter: blur(900px);
 }
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.make-invert-img{
+  filter: invert(1);
+}
+
+.number-3dicon{
+  width: 75px;
+  height: 75px;
+  transform: rotateX(51deg) rotateZ(43deg);
+  transform-style: preserve-3d;
+  border-radius: 32px;
+  box-shadow: 1px 1px 0 1px #f9f9fb, -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+  transition: 0.4s ease-in-out transform, 0.4s ease-in-out box-shadow;
+
+  &:hover {
+    transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(43deg);
+    box-shadow: 1px 1px 0 1px #f9f9fb, -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+      54px 54px 28px -10px rgba(34, 33, 81, 0.15);
+  }
+  
+}
+

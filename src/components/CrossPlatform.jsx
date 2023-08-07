@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const CrossPlatform = () => {
   return (
-    <section className={`${layout.section} `}>
+    <section id="About" className={`${layout.section} `}>
       <div className={`${styles.flexStart} flex  flex-col flex-1`}>
         <h1 className={`${styles.heading1}`}>
           {" "}
@@ -13,36 +13,34 @@ const CrossPlatform = () => {
           Task planner Do it.
         </h1>
 
-        <div className={`w-full h-full  flex flex-col gap-6 `}>
-          <div className="border-left mt-5">
-            <h3 className="text-3xl tracking-wide">
-              You can finally plane <br /> your tasks without pain.
-            </h3>
-            <p
-              className={`py-4 font-normal tracking-wider text-justify md:text-left`}
-            >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-              eum voluptatibus recusandae ex aspernatur quis quia, nemo quasi
-              possimus officia.
-            </p>
-          </div>
-          <p className={`${styles.paragraph} border-left`}>
-            Do not waste your time anymore
+        <div className="border-left mt-5">
+          <h3 className="text-3xl tracking-wide">
+            You can finally plane <br /> your tasks without pain.
+          </h3>
+          <p
+            className={`py-4 font-normal tracking-wider text-justify md:text-left`}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum
+            voluptatibus recusandae ex aspernatur quis quia, nemo quasi possimus
+            officia.
           </p>
-          <p className={`${styles.paragraph} border-left`}>Be one Stop ahead</p>
-          <Button buttonText={"Get Started"} />
-          <div className="w-full flex justify-center sm:justify-start gap-6 mt-5">
-            <img
-              src={googlePlay}
-              alt=""
-              className=" w-[200px] h-[65px] aspect-auto"
-            />
-            <img
-              src={appleStore}
-              alt=""
-              className=" w-[200px] h-[65px] aspect-auto"
-            />
-          </div>
+        </div>
+        <p className={`${styles.paragraph} border-left`}>
+          Do not waste your time anymore
+        </p>
+        <p className={`${styles.paragraph} border-left`}>Be one Stop ahead</p>
+        <Button buttonText={"Get Started"}  />
+        <div className="w-full flex justify-center sm:justify-start gap-6 mt-5">
+          <img
+            src={googlePlay}
+            alt=""
+            className=" w-[200px] h-[65px] aspect-auto"
+          />
+          <img
+            src={appleStore}
+            alt=""
+            className=" w-[200px] h-[65px] aspect-auto"
+          />
         </div>
       </div>
 

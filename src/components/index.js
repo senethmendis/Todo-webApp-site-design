@@ -8,6 +8,7 @@ import HowWorks from "./HowWorks";
 import Testimonials from "./Testimonials";
 import Button from "./Button";
 import Footer from "./Footer";
+import FQACard from './FQACard.jsx'
 
 
-export {Footer,Button,Navbar,Buy,CrossPlatform,FQuestions,Features,Hero,HowWorks,Testimonials}
+export {FQACard,Footer,Button,Navbar,Buy,CrossPlatform,FQuestions,Features,Hero,HowWorks,Testimonials}

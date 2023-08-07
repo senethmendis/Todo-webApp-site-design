@@ -11,5 +11,6 @@ import thubmsUp from './like.png'
 import devices from './devices.png'
 import voiceIcon from './voice.png'
 import dashBoard from './dashboard.png'
+import buyImg from './BigProfilePciture.png'
 
-export {dashBoard,thubmsUp,devices,voiceIcon, smartPhone,smartWatch,googlePlay,appleStore, profilePic1, profilePic2, profilePic3, profilePic4, profilePic5 };
+export {buyImg,dashBoard,thubmsUp,devices,voiceIcon, smartPhone,smartWatch,googlePlay,appleStore, profilePic1, profilePic2, profilePic3, profilePic4, profilePic5 };
